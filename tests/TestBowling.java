@@ -10,9 +10,6 @@ public class TestBowling {
 		Frame frame = new Frame(5,5);
 		
 		assertTrue(frame.isSpare());
-		
-		
-		
 	}
 	
 	@Test
@@ -37,7 +34,12 @@ public class TestBowling {
 		assertFalse(frame.isStrike());
 	}
 	
-	
+	@Test
+	public void test_firstThrow_SecondScore_frameStrake() throws BowlingException {
+		
+		Frame frame = new Frame(7,3);
+		assertEquals("Incorect score", 10, frame.score());
+	}
 	@Test
 	public void test_nineStrike() throws BowlingException {
 		

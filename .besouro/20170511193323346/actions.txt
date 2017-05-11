@@ -103,3 +103,10 @@ UnitTestSessionAction 1494529328438 TestBowling.java FAIL
 RefactoringAction 1494529467547 TestBowling.java ADD vodi test_firstThrow_SecondScore FIELD
 RefactoringAction 1494529472575 TestBowling.java RENAME test_firstThrow_SecondScore=>vodi test_firstThrow_SecondScore_frameStrake() METHOD
 EditAction 1494529591338 BowlingGame.java 1234 4 4 0
+CompilationAction 1494529594901 TestBowling.java
+UnitTestCaseAction 1494529597401 TestBowling.java FAIL
+UnitTestSessionAction 1494529597402 TestBowling.java FAIL
+CompilationAction 1494529608233 TestBowling.java
+UnitTestCaseAction 1494529609149 TestBowling.java FAIL
+UnitTestSessionAction 1494529609151 TestBowling.java FAIL
+EditAction 1494529823536 BowlingGame.java 1248 4 4 0
