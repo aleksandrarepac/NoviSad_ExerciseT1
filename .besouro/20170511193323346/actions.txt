@@ -49,3 +49,4 @@ RefactoringAction 1494527663059 BowlingGame.java ADD int bonusGame FIELD
 EditAction 1494527688713 Frame.java 817 6 7 0
 EditAction 1494527692311 BowlingGame.java 1118 4 3 0
 EditAction 1494527695460 TestBowling.java 1311 4 24 4
+EditAction 1494527698682 BowlingException.java 58 0 0 0
