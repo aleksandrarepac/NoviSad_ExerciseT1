@@ -40,7 +40,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		assertEquals ("First throw and second throw", "", frame);
+		assertEquals ("First throw and second throw", "10", frame);
 	}
 	
 	public void test_firstThrow_notStrike() throws BowlingException {
