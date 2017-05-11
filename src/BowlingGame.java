@@ -10,6 +10,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private int bonusGame =0;
+	private int score=0;
 	
 	public BowlingGame(){}
 	
@@ -46,7 +47,12 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
+		for(int i=0; i<10; i++)
+		{
+			score= frames.get(i).score();
+		}
 		
-		return 0;
+		
+		return score + bonusGame;
 	}
 }

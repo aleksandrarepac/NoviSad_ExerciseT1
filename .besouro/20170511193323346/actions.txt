@@ -56,3 +56,7 @@ EditAction 1494527718379 TestBowling.java 1313 4 24 4
 UnitTestCaseAction 1494527722364 TestBowling.java FAIL
 UnitTestSessionAction 1494527722366 TestBowling.java FAIL
 EditAction 1494527750917 TestBowling.java 1185 4 19 4
+UnitTestCaseAction 1494527754743 TestBowling.java FAIL
+UnitTestSessionAction 1494527754744 TestBowling.java FAIL
+RefactoringAction 1494527871524 BowlingGame.java ADD int score FIELD
+EditAction 1494528098776 BowlingGame.java 1232 4 4 0
