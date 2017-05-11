@@ -35,12 +35,24 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		assertEquals ("First throw and second throw", "10-0", frame);
+		assertEquals ("First throw and second throw", "10", frame);
 	}
 	
+	@Test
 	public void test_firstThrow_notStrike() throws BowlingException {
 		
-		Frame frame = new Frame(0,1);
+		Frame frame = new Frame(0,10);
+		BowlingGame game = new BowlingGame();
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
 		assertEquals ("First throw and second throw", "", frame);
 	}
 	

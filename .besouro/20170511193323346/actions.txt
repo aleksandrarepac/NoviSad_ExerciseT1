@@ -60,3 +60,4 @@ UnitTestCaseAction 1494527754743 TestBowling.java FAIL
 UnitTestSessionAction 1494527754744 TestBowling.java FAIL
 RefactoringAction 1494527871524 BowlingGame.java ADD int score FIELD
 EditAction 1494528098776 BowlingGame.java 1232 4 4 0
+EditAction 1494528102055 TestBowling.java 1483 4 30 4
