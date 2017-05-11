@@ -67,3 +67,39 @@ EditAction 1494528170337 TestBowling.java 1482 4 30 4
 UnitTestCaseAction 1494528174445 TestBowling.java FAIL
 UnitTestSessionAction 1494528174447 TestBowling.java FAIL
 EditAction 1494528314652 TestBowling.java 1517 4 31 4
+UnitTestCaseAction 1494528318722 TestBowling.java FAIL
+UnitTestSessionAction 1494528318723 TestBowling.java FAIL
+RefactoringAction 1494528649011 TestBowling.java RENAME test_firstThrow_isStrike()=>void test_() METHOD
+RefactoringAction 1494528655040 TestBowling.java RENAME test_()=>void test_nineStrike() METHOD
+UnitTestCaseAction 1494528834600 TestBowling.java FAIL
+UnitTestSessionAction 1494528834602 TestBowling.java FAIL
+RefactoringAction 1494528890367 TestBowling.java ADD void test_firstThrow_isStrike() METHOD
+UnitTestCaseAction 1494528915375 TestBowling.java FAIL
+UnitTestSessionAction 1494528915379 TestBowling.java FAIL
+UnitTestCaseAction 1494528967157 TestBowling.java FAIL
+UnitTestSessionAction 1494528967159 TestBowling.java FAIL
+RefactoringAction 1494529010929 TestBowling.java ADD void test_firstThrow_isNotStrike() METHOD
+UnitTestCaseAction 1494529053458 TestBowling.java FAIL
+UnitTestSessionAction 1494529053465 TestBowling.java FAIL
+UnitTestCaseAction 1494529110945 TestBowling.java FAIL
+UnitTestSessionAction 1494529110947 TestBowling.java FAIL
+RefactoringAction 1494529132689 TestBowling.java REMOVE test_firstThrow_notStrike() METHOD
+UnitTestCaseAction 1494529147717 TestBowling.java FAIL
+UnitTestSessionAction 1494529147719 TestBowling.java FAIL
+UnitTestCaseAction 1494529156916 TestBowling.java FAIL
+UnitTestSessionAction 1494529156919 TestBowling.java FAIL
+UnitTestCaseAction 1494529180528 TestBowling.java FAIL
+UnitTestSessionAction 1494529180530 TestBowling.java FAIL
+UnitTestCaseAction 1494529186244 TestBowling.java FAIL
+UnitTestSessionAction 1494529186245 TestBowling.java FAIL
+UnitTestCaseAction 1494529257065 TestBowling.java FAIL
+UnitTestSessionAction 1494529257067 TestBowling.java FAIL
+UnitTestCaseAction 1494529265019 TestBowling.java FAIL
+UnitTestSessionAction 1494529265021 TestBowling.java FAIL
+UnitTestCaseAction 1494529302229 TestBowling.java FAIL
+UnitTestSessionAction 1494529302230 TestBowling.java FAIL
+UnitTestCaseAction 1494529328436 TestBowling.java FAIL
+UnitTestSessionAction 1494529328438 TestBowling.java FAIL
+RefactoringAction 1494529467547 TestBowling.java ADD vodi test_firstThrow_SecondScore FIELD
+RefactoringAction 1494529472575 TestBowling.java RENAME test_firstThrow_SecondScore=>vodi test_firstThrow_SecondScore_frameStrake() METHOD
+EditAction 1494529591338 BowlingGame.java 1234 4 4 0

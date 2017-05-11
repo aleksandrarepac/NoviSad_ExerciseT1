@@ -9,19 +9,37 @@ public class TestBowling {
 		
 		Frame frame = new Frame(5,5);
 		
-		assertEquals ("First throw and second throw", "10", frame);
+		assertTrue(frame.isSpare());
 		
 		
 		
 	}
 	
+	@Test
 	public void test_firstThrow_secontThrow_notSpare() throws BowlingException {
-		Frame frame = new Frame(3,5);
-		assertEquals ("First throw and second throw", "", frame);
+		
+		Frame frame = new Frame(2,5);
+		assertFalse(frame.isSpare());
 		
 	}
-	@Test(expected=BowlingException.class)
+	
+	@Test
 	public void test_firstThrow_isStrike() throws BowlingException {
+		
+		Frame frame = new Frame(10,0);
+		assertTrue(frame.isStrike());
+	}
+	
+	@Test
+	public void test_firstThrow_isNotStrike() throws BowlingException {
+		
+		Frame frame = new Frame(0,10);
+		assertFalse(frame.isStrike());
+	}
+	
+	
+	@Test
+	public void test_nineStrike() throws BowlingException {
 		
 		Frame frame = new Frame(10,0);
 		Frame frame1 = new Frame(5,4);
@@ -38,28 +56,6 @@ public class TestBowling {
 		game.addFrame(frame);
 		assertEquals ("First throw and second throw", 117 , frame);
 	}
-	
-	@Test
-	public void test_firstThrow_notStrike() throws BowlingException {
-		
-		Frame frame = new Frame(0,10);
-		BowlingGame game = new BowlingGame();
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		assertEquals ("First throw and second throw", "", frame);
-	}
-	
-	
-	
-	
 	
 	
 
