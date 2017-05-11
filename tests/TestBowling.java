@@ -10,11 +10,6 @@ public class TestBowling {
 		Frame frame = new Frame(5,5);
 		
 		assertEquals ("First throw and second throw", "10", frame);
-		frame.getFirstThrow();
-		frame.getFirstThrow();
-		frame.getFirstThrow();
-		frame.getFirstThrow();
-		frame.getFirstThrow();
 		
 		
 		
@@ -40,7 +35,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		assertEquals ("First throw and second throw", "10", frame);
+		assertEquals ("First throw and second throw", "10-0", frame);
 	}
 	
 	public void test_firstThrow_notStrike() throws BowlingException {
