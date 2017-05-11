@@ -47,3 +47,4 @@ RefactoringAction 1494525928338 TestBowling.java RENAME test_firstThrow=>void te
 RefactoringAction 1494525946409 TestBowling.java RENAME test_firstThrow_=>void test_firstThrow_notStrike() METHOD
 RefactoringAction 1494527663059 BowlingGame.java ADD int bonusGame FIELD
 EditAction 1494527688713 Frame.java 817 6 7 0
+EditAction 1494527692311 BowlingGame.java 1118 4 3 0
