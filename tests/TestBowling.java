@@ -35,7 +35,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		assertEquals ("First throw and second throw", "10", frame);
+		assertEquals ("First throw and second throw", 10 , frame);
 	}
 	
 	@Test
